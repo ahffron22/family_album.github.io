@@ -1,0 +1,94 @@
+body{
+    background-image:url(images/family_trip/hike2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    z-index: 1;
+    text-align: center;
+}
+.menu{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 10;
+}
+ul{
+    list-style: none;
+    z-index: 10;
+    padding-left: 20%;
+}
+ul li{
+    float: left;
+    height: 80px;
+    width: 200px;
+    background-color: black;
+    opacity: .92;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 5px;
+    z-index: 10;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    z-index: 10;
+}
+ul li a:hover{
+    background-color:green;
+    border-radius: 25px;
+    z-index: 10;
+}
+ul li ul li{
+    display:none;
+    z-index: 10;
+}
+ul li:hover ul li{
+    display:block;
+    z-index: 10;
+}
+.title{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    z-index: 10;
+}
+.A_team{
+    position: absolute;
+    top: 360px;
+    left: 100px;
+    display:flex;
+    box-shadow: 10px 15px 20px red;
+    z-index: 1;
+}
+.mission{
+    position: absolute;
+    right: 0px;
+    top:320px
+}
+img{
+    width:200px;
+    height:150px;
+    box-shadow: 10px 15px 20px black;
+    border-radius: 20px;
+}
+th{
+    font-size: 35px;
+    color:white;
+    background-color:#73AD21;
+    padding: 20px;
+}
+table{
+    background-color: white;
+    width: 80%;
+    align: center;
+    margin-left: 200px;
+    margin-right: 20px;
+}
+td{
+    padding:20px;
+}
